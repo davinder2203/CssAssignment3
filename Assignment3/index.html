@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- adding required metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Cadbury Chocolate</title>
+
+    <!-- adding custom fonts for the header -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather:wght@700&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header begins -->
+    <header>
+        <!-- adding a cadbury logo -->
+        <div class = "logo">
+            <img src="./style/media/images/header_logo.png" alt="logo" id="logo">
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="index.html">About</a></li>
+                    <li class="nav-item"><a href="index.html">Contact</a></li>
+                    <li class="nav-item"><a href="index.html">Buy</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- search bar for the navigation -->
+        <div class="search-bar">
+            <input id = "search" type="text" placeholder="    Search">
+            <svg id ="svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="#FFF">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-1.42 1.42l-.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+            </svg>
+        </div>
+    </header>
+    <main>
+
+<!-- adding contents of the slideshow -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="./style/media/images/gallery1.png" alt="Image 1">
+            </div>
+            <div class="mySlides fade">
+                <img src="./style/media/images/gallery3.png" alt="Image 2">
+            </div>
+            <div class="mySlides fade">
+                <img src="./style/media/images/gallery2.png" alt="Image 3">
+            </div>
+            
+    
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+<!-- contents about the candy and brand -->
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Cadbury is a renowned British brand of chocolate that has been crafting delightful chocolates for over a century. Known for its rich and creamy taste, Cadbury offers a wide range of chocolate varieties that cater to diverse palates.</p>
+        </section>
+        <section id="history">
+            <h2>History</h2>
+            <p>Founded by John Cadbury in 1824, Cadbury has a fascinating history. Initially started as a small business in Birmingham, England, Cadbury's commitment to quality and innovation has made it a household name worldwide.</p>
+        </section>
+        <section id="varieties">
+            <h2>Popular Varieties</h2>
+            <ul>
+                <li>Dairy Milk</li>
+                <li>Caramel</li>
+                <li>Fruit & Nut</li>
+                <li>Hazelnut</li>
+                <li>Wholenut</li>
+                <!-- Add more varieties as needed -->
+            </ul>
+        </section>
+        <section id="popular-products">
+            <h2>Popular Products</h2>
+            <p>Explore some of Cadbury's best-selling products:</p>
+            <ul>
+                <li>Cadbury Dairy Milk Silk</li>
+                <li>Cadbury Oreo Chocolate Bar</li>
+                <li>Cadbury Roses Assortment</li>
+            </ul>
+        </section>
+        <section class="two-column-section">
+            <div class="column">
+                <img src="./style/media/images/col1.png" alt="Image 1">
+                <p>Cadbury Hazelnut is a delectable chocolate variety that combines the smoothness of Cadbury's signature milk chocolate with the rich, nutty flavor of hazelnuts. Each bite offers a perfect balance of creamy chocolate and crunchy hazelnuts, creating a delightful sensory experience.</p>
+                <p>The Hazelnut chocolate bar is crafted with high-quality ingredients, ensuring a premium taste that chocolate enthusiasts appreciate. Whether you enjoy it as a treat for yourself or as a gift for a loved one, Cadbury Hazelnut is sure to satisfy your chocolate cravings.</p>
+                <p>Indulge in the irresistible combination of velvety chocolate and the delightful crunch of hazelnuts with Cadbury's Hazelnut variety.</p>
+
+            </div>
+            <div class="column">
+                <img src="./style/media/images/col2.png" alt="Image 2">
+    
+    <p>Cadbury Crispy Crunch is a delightful chocolate variety that offers a unique blend of smooth milk chocolate and crispy, crunchy goodness. The chocolate bar features a layer of creamy Cadbury milk chocolate with embedded crispy rice or cereal pieces, creating a satisfying texture and flavor combination.</p>
+    <p>The Crispy Crunch chocolate bar is known for its enjoyable contrast between the silky chocolate and the crispy elements, making it a favorite among those who appreciate a bit of crunch in their chocolate experience.</p>
+    
+            </div>
+        </section>
+        <section id="fun-facts">
+            <h2>Fun Facts</h2>
+            <ul>
+                <li>Cadbury Dairy Milk was introduced in 1905 and has become one of the world's most popular chocolate bars.</li>
+                <li>The iconic Cadbury Dairy Milk packaging color, purple, was introduced in 1914.</li>
+                <li>Cadbury produces more than 350 million pounds of chocolate each year.</li>
+            </ul>
+        </section>
+    </main>
+    <!-- fixed footer section for the site -->
+    <footer>
+        <div class="footer_logo">
+            <img id = "footer_logo" src="./style/media/images/footer_logo.png" alt="Company Logo">
+        </div>
+        <div class="company-info">
+            &copy;cadbury 2023
+        </div>
+        <div class="quick-contact-form">
+            <!-- form element for the footer -->
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="1" required></textarea>
+
+                    <input id = "submit" type="submit" value="Submit">
+                </form>
+            
+        </div>
+    </footer>
+    <!-- linking the js at the end for fast loading of the page -->
+    <script src="script.js"></script>
+</body>
+</html>
